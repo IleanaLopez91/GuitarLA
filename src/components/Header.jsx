@@ -17,7 +17,7 @@ const Header = ({
             <a href="index.html">
               <img
                 className="img-fluid"
-                src="./public/img/logo.svg"
+                src="/img/logo.svg"
                 alt="imagen logo"
               />
             </a>
@@ -26,7 +26,7 @@ const Header = ({
             <div className="carrito">
               <img
                 className="img-fluid"
-                src="./public/img/carrito.png"
+                src="/img/carrito.png"
                 alt="imagen carrito"
               />
               <div id="carrito" className="bg-white p-3">
@@ -48,7 +48,7 @@ const Header = ({
                             <td>
                               <img
                                 className="img-fluid"
-                                src={`./public/img/${guitar.image}.jpg`}
+                                src={`/img/${guitar.image}.jpg`}
                                 alt="imagen guitarra"
                               />
                             </td>
